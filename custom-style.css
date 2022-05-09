@@ -363,3 +363,11 @@ border-radius: 3px;
     display: block;
   }
 }
+
+
+html:lang(cs) .shopping-cart-banner b::after{
+    content: " Předpokládaný termín doručení najdete u jednotlivých položek."
+}
+html:lang(sk) .shopping-cart-banner b::after{
+  content: " Predpokladaný termín doručenia nájdete pri jednotlivom tovare."
+}
